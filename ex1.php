@@ -1,62 +1,74 @@
 <?php
 
-require_once("ex1_function.php");
+require_once("function.php");
 
 echo "\n";
 
 echo "Exercice 1 (True ou False):\n";
 
-$lettres  ="a";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="a";
+testerLettre($lettre);
+//echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
 
-$lettres  ="b";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="b";
+testerLettre($lettre);
 
-$lettres  ="c";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="c";
+testerLettre($lettre);
 
-$lettres  ="A";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="A";
+testerLettre($lettre);
 
-$lettres  ="E";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="e";
+testerLettre($lettre);
 
-$lettres  ="true";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="true";
+testerLettre($lettre);
 
-$lettres  ="false";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="false";
+testerLettre($lettre);
 
-$lettres  ="0";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="0";
+testerLettre($lettre);
 
-$lettres  ="1";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="1";
+testerLettre($lettre);
 
-$lettres  ="2";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="2";
+testerLettre($lettre);
 
-$lettres  ="bonjour";
-isVoyelle($lettres);
-echo "\n";
-echo "\n";
+$lettre ="bonjour";
+testerLettre($lettre);
+
+
+
+/*$lettre  ="b";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="c";
+echo "Lettre " .$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="A ";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="e";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="true";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="false";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="0";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="1";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="2";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+
+$lettre  ="bonjour";
+echo "Lettre ".$lettre." = ".isVoyelle($lettre)."\n";
+*/
